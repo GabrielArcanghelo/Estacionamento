@@ -36,3 +36,10 @@ function fazerLogin() {
     alert("Email ou senha incorretos!");
   }
 }
+
+function footerText() {
+  const footer = document.getElementById("texto-footer");
+  const year = new Date().getFullYear();
+  footer.textContent = `© ${year} Copyright: Sistema de Estacionamento - @sistemaestacionamentojp@gmail.com`;
+}
+footerText();
